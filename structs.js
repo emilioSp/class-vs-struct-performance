@@ -3,7 +3,7 @@ import { PEOPLE_COUNT } from './helpers.js';
 
 const peopleStructs = [];
 
-console.time('struct');
+console.time('time');
 for (let i = 0; i < PEOPLE_COUNT; i++) {
   peopleStructs.push({
     id: 1,
@@ -20,4 +20,4 @@ for (let i = 0; i < PEOPLE_COUNT; i++) {
     cars: getCarsStructs(),
   });
 }
-console.timeEnd('struct');
+console.timeEnd('time');

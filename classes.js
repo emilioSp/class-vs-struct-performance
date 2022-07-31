@@ -5,7 +5,7 @@ import { getCarsObjects, getPetsObjects } from './helpers.js';
 
 const peopleClasses = [];
 
-console.time('class');
+console.time('time');
 for (let i = 0; i < PEOPLE_COUNT; i++) {
   peopleClasses.push(new Person({
     id: 1,
@@ -22,4 +22,4 @@ for (let i = 0; i < PEOPLE_COUNT; i++) {
     cars: getCarsObjects(),
   }));
 }
-console.timeEnd('class');
+console.timeEnd('time');
