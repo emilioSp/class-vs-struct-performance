@@ -2,10 +2,12 @@
 
 Models:
 - Person
+- Address
 - Pet
 - Car
 
 Relations:
+- Person -> Address (1:1)
 - Person -> Pet (1:N)
 - Person -> Car (1:N)
 
